@@ -1,0 +1,10 @@
+<agm-map
+    [latitude]="lat"
+    [longitude]="lng"
+    [zoom]="zoom"
+    [styles]="mapTheme"
+    [disableDefaultUI]="false"
+    [zoomControl]="false"
+    (mapReady)="onMapLoad($event)"
+    (mapClick)="mapClicked($event)">
+</agm-map>
